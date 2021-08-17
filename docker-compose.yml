@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  mongo.book_stock.db:
+    container_name: mongo-book-stock
+    image: 'bitnami/mongodb:latest'
+    ports:
+    - '47017:27017'
